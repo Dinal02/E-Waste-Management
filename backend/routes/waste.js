@@ -1,5 +1,5 @@
 import express from 'express';
-import Waste from '/models/Waste.js';
+import WasteDB from '../models/WasteDB.js';
 import jwt from 'jsonwebtoken';
 
 const router = express.Router();

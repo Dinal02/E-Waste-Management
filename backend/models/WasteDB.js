@@ -13,4 +13,4 @@ const wasteSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-export default mongoose.model('Waste', wasteSchema);
+export default mongoose.model('WasteDB', wasteSchema);

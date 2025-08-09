@@ -1,5 +1,5 @@
 import express from 'express';
-import Staff from '/models/Staff.js';
+import Staff from '../models/Staff.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
